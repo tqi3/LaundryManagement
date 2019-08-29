@@ -144,10 +144,6 @@
         "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_activity_login.xml.flat",
-        "source": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\src\\main\\res\\layout\\fragment_activity_login.xml"
-    },
-    {
         "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -1196,6 +1192,10 @@
         "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\2d43fcdfb536a3b2c24e20f6cba11d2e\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
         "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\drawable\\abc_switch_thumb_material.xml"
     },
@@ -1298,6 +1298,10 @@
     {
         "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
         "merged": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat",

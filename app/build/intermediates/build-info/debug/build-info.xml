@@ -5,63 +5,32 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.4.2"
-    timestamp="1566965049718"
+    timestamp="1567052030236"
     token="-8471071135099914365"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="512" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="9" />
+        duration="0" />
     <task
         name="verifier"
-        duration="26" />
+        duration="0" />
 
     <artifact
         location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1566963541877"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1567049502299"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
@@ -70,31 +39,31 @@
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -106,17 +75,8 @@
     <build
         build-mode="COLD"
         ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1566965049718"
+        timestamp="1567051899837"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
@@ -124,22 +84,36 @@
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1567052030236"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
     </build>
 

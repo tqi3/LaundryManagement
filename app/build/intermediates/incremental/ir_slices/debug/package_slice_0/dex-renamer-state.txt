@@ -1,4 +1,4 @@
-#Tue Aug 27 22:04:12 MDT 2019
+#Wed Aug 28 22:11:42 MDT 2019
 base.0=F\:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

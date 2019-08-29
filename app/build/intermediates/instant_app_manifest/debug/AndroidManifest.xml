@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.recycle.laundrymanagement.activity_register" />
         <activity android:name="com.recycle.laundrymanagement.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +27,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.recycle.laundrymanagement.activity_login" />
+        <activity android:name="com.recycle.laundrymanagement.activity_register" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
