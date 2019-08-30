@@ -78,10 +78,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fa
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.recycle.laundrymanagement.activity_register
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:9-64
+activity#com.recycle.laundrymanagement.OnBoardingActivity
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:9-65
 	android:name
-		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:19-52
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:19-53
 activity#com.recycle.laundrymanagement.MainActivity
 ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
@@ -100,6 +100,10 @@ activity#com.recycle.laundrymanagement.activity_login
 ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:20:9-52
 	android:name
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:20:19-49
+activity#com.recycle.laundrymanagement.activity_register
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:21:9-55
+	android:name
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:21:19-52
 uses-sdk
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
