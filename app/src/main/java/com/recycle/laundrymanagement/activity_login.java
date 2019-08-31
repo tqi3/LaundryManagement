@@ -13,11 +13,16 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class activity_login extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
     private static final int REQUEST_SIGNUP = 0;
-    private EditText UsernameLogin;
+    protected FirebaseDatabase database =  FirebaseDatabase.getInstance();
+
+    private EditText EmailLogin;
     private EditText PasswordLogin;
     private TextView RegisterLink;
     private Button SubmitButton;
@@ -29,16 +34,22 @@ public class activity_login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         RegisterLink = (TextView) findViewById(R.id.registerlink);
-        UsernameLogin = (EditText) findViewById(R.id.username);
-        PasswordLogin = (EditText) findViewById(R.id.password);
+        EmailLogin = (EditText) findViewById(R.id.emaillogin);
+        PasswordLogin = (EditText) findViewById(R.id.passwordlogin);
         SubmitButton = (Button) findViewById(R.id.submit);
+
+        DatabaseReference myRef = database.getReference("message");
+        myRef.setValue("Hello, World!");
 
         //Submit Button Listener
         SubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.v("EditText",UsernameLogin.getText().toString());
+
+                Log.v("EditText",EmailLogin.getText().toString());
                 Log.v("EditText",PasswordLogin.getText().toString());
+                DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("Email and Password");
+                myRef.setValue(EmailLogin.getText().toString() + " and " + PasswordLogin.getText().toString());
             }
         });
 

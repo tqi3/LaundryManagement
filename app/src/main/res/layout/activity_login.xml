@@ -31,14 +31,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="45dp"
-            android:text="Username"
+            android:text="Email"
             android:textSize="18dp"
             android:textColor="#000000"
             />
 
         <!-- Username edit tag -->
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/emaillogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
@@ -58,7 +58,7 @@
 
         <!-- Password edit tag -->
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/passwordlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
