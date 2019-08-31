@@ -1,16 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2d43fcdfb536a3b2c24e20f6cba11d2e\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\c540da19280852372ae9cd7116b5bea5\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\60df4b8eec6394ccc78202fed1a5e839\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\668387424e47d736f9b97140fc2e361b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\a6ba2238fd8aca07475e53a0b8ca1cc1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\74890c0ffd323e1dfbf99974dc76c7fb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\de06cc17bfde3edff7df2e0f430058b0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2da6015bb06fcca65bd60dab093178be\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\40d4133693bd6091ad0864c964f37da8\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\83e00e3b3ea9359e7c47be8ab85130c7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\5c3d3cc86ec0957dbd60dcb639d196ea\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\6b347ebf8cfe7174c776ab2409a4b8df\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d47566b2c3cc1f5df54dcad42a8b8b71\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\e03495d6a36ec17f5b4a1dce14782389\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\a15d5251f57acb05dea8c4e7a1dd8e5f\AndroidManifest.xml:17:1-22:12
@@ -22,34 +27,37 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\fa
 MERGED from [androidx.core:core:1.0.1] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\b00d75cd695627eaf281701d76be9a07\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\00c5fee876af594d42d1a0fee3e7549f\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d706b23b3aaae2252d8eebbeda5a42d6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\df62d0fcc416eb9ad138bacfa90af1de\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7f90de05748f38d805b7283173888560\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\669db0d651c3030c8b8ea646559cfa2e\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d69f956c3ca1082ac334dec23d3dcd42\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\65e589ae4d5e97c9c59bed1a1917c151\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\72c2163b25b917a53282595759bd5bbb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7130b508b28ee966c975dd4a161acd32\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\e1ea34ed7916b7b3d37295c5f1e15d19\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\bbebdfb9b1f0fb46112ff9476e3c9d16\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\c91db4ad9954e079869df9f8e7deafd3\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7130b508b28ee966c975dd4a161acd32\AndroidManifest.xml:17:1-22:12
-INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
-		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
-		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:5:5-22:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2d43fcdfb536a3b2c24e20f6cba11d2e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2d43fcdfb536a3b2c24e20f6cba11d2e\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\60df4b8eec6394ccc78202fed1a5e839\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\60df4b8eec6394ccc78202fed1a5e839\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.0.1] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\b00d75cd695627eaf281701d76be9a07\AndroidManifest.xml:22:5-89
@@ -70,38 +78,60 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fa
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.recycle.laundrymanagement.OnBoardingActivity
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:9-65
+	android:name
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:19-53
 activity#com.recycle.laundrymanagement.MainActivity
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:13:9-19:20
 	android:name
-		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:13:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.recycle.laundrymanagement.activity_login
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:20:9-52
+	android:name
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:20:19-49
+activity#com.recycle.laundrymanagement.activity_register
+ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:21:9-55
+	android:name
+		ADDED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml:21:19-52
 uses-sdk
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2d43fcdfb536a3b2c24e20f6cba11d2e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2d43fcdfb536a3b2c24e20f6cba11d2e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\c540da19280852372ae9cd7116b5bea5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\c540da19280852372ae9cd7116b5bea5\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\60df4b8eec6394ccc78202fed1a5e839\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\60df4b8eec6394ccc78202fed1a5e839\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\668387424e47d736f9b97140fc2e361b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\668387424e47d736f9b97140fc2e361b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\a6ba2238fd8aca07475e53a0b8ca1cc1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\a6ba2238fd8aca07475e53a0b8ca1cc1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\74890c0ffd323e1dfbf99974dc76c7fb\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\74890c0ffd323e1dfbf99974dc76c7fb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\de06cc17bfde3edff7df2e0f430058b0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\de06cc17bfde3edff7df2e0f430058b0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2da6015bb06fcca65bd60dab093178be\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\2da6015bb06fcca65bd60dab093178be\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\40d4133693bd6091ad0864c964f37da8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\40d4133693bd6091ad0864c964f37da8\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\83e00e3b3ea9359e7c47be8ab85130c7\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\83e00e3b3ea9359e7c47be8ab85130c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\5c3d3cc86ec0957dbd60dcb639d196ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\5c3d3cc86ec0957dbd60dcb639d196ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\6b347ebf8cfe7174c776ab2409a4b8df\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\6b347ebf8cfe7174c776ab2409a4b8df\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d47566b2c3cc1f5df54dcad42a8b8b71\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d47566b2c3cc1f5df54dcad42a8b8b71\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\e03495d6a36ec17f5b4a1dce14782389\AndroidManifest.xml:20:5-44
@@ -124,6 +154,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fa
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\00c5fee876af594d42d1a0fee3e7549f\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d706b23b3aaae2252d8eebbeda5a42d6\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\d706b23b3aaae2252d8eebbeda5a42d6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\df62d0fcc416eb9ad138bacfa90af1de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\df62d0fcc416eb9ad138bacfa90af1de\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7f90de05748f38d805b7283173888560\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7f90de05748f38d805b7283173888560\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\669db0d651c3030c8b8ea646559cfa2e\AndroidManifest.xml:20:5-44
@@ -134,14 +166,14 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\fanfan\.gradle\caches\transfor
 MERGED from [androidx.print:print:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\65e589ae4d5e97c9c59bed1a1917c151\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\72c2163b25b917a53282595759bd5bbb\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\72c2163b25b917a53282595759bd5bbb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7130b508b28ee966c975dd4a161acd32\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7130b508b28ee966c975dd4a161acd32\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\e1ea34ed7916b7b3d37295c5f1e15d19\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\e1ea34ed7916b7b3d37295c5f1e15d19\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\bbebdfb9b1f0fb46112ff9476e3c9d16\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\bbebdfb9b1f0fb46112ff9476e3c9d16\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\c91db4ad9954e079869df9f8e7deafd3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\c91db4ad9954e079869df9f8e7deafd3\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7130b508b28ee966c975dd4a161acd32\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fanfan\.gradle\caches\transforms-2\files-2.1\7130b508b28ee966c975dd4a161acd32\AndroidManifest.xml:20:5-44
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 INJECTED from F:\Users\fanfan\AndroidStudioProjects\LaundryManagement\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
