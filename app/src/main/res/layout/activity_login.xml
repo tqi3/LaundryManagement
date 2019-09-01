@@ -31,14 +31,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="45dp"
+<<<<<<< HEAD
             android:text="Email"
+=======
+            android:text="Username"
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
             android:textSize="18dp"
             android:textColor="#000000"
             />
 
         <!-- Username edit tag -->
         <EditText
+<<<<<<< HEAD
             android:id="@+id/emaillogin"
+=======
+            android:id="@+id/username"
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
@@ -58,7 +66,11 @@
 
         <!-- Password edit tag -->
         <EditText
+<<<<<<< HEAD
             android:id="@+id/passwordlogin"
+=======
+            android:id="@+id/password"
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
