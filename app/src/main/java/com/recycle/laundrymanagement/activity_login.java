@@ -39,7 +39,6 @@ public class activity_login extends AppCompatActivity {
         SubmitButton = (Button) findViewById(R.id.submit);
 
         DatabaseReference myRef = database.getReference("message");
-        myRef.setValue("Hello, World!");
 
         //Submit Button Listener
         SubmitButton.setOnClickListener(new View.OnClickListener() {
