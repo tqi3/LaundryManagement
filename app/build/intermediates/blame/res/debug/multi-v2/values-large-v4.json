@@ -4,7 +4,7 @@
             "outputFile": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\2d43fcdfb536a3b2c24e20f6cba11d2e\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\6a45f9fca2d1cf68d8735e16b6e6b115\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\3472410157f1fedf55accc2860678919\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
