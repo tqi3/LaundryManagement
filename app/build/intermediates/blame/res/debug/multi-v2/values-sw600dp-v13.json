@@ -4,7 +4,11 @@
             "outputFile": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\6a45f9fca2d1cf68d8735e16b6e6b115\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
                     "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\2d43fcdfb536a3b2c24e20f6cba11d2e\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +27,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\3472410157f1fedf55accc2860678919\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
                     "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
