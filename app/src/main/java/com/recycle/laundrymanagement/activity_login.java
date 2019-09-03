@@ -1,6 +1,7 @@
 package com.recycle.laundrymanagement;
 
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.*;
@@ -9,23 +10,29 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class activity_login extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
     private static final int REQUEST_SIGNUP = 0;
-    protected FirebaseDatabase database =  FirebaseDatabase.getInstance();
+    protected DatabaseReference database;
 
     private EditText EmailLogin;
     private EditText PasswordLogin;
-    private TextView RegisterLink;
     private Button SubmitButton;
+    private TextView RegisterLink;
+
 
 
     @Override
@@ -33,22 +40,54 @@ public class activity_login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        RegisterLink = (TextView) findViewById(R.id.registerlink);
         EmailLogin = (EditText) findViewById(R.id.emaillogin);
         PasswordLogin = (EditText) findViewById(R.id.passwordlogin);
         SubmitButton = (Button) findViewById(R.id.submit);
+        RegisterLink = (TextView) findViewById(R.id.registerlink);
 
-        DatabaseReference myRef = database.getReference("message");
+        database = FirebaseDatabase.getInstance().getReference();
 
         //Submit Button Listener
         SubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                Log.v("EditText",EmailLogin.getText().toString());
-                Log.v("EditText",PasswordLogin.getText().toString());
-                DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("Email and Password");
-                myRef.setValue(EmailLogin.getText().toString() + " and " + PasswordLogin.getText().toString());
+                final String useremail = EmailLogin.getText().toString().replace(".",",");
+                final String userpassword = Utils.md5Encryption(PasswordLogin.getText().toString());
+                final Boolean useradmin = true;
+
+                final Context context = getApplicationContext();
+
+
+
+                database.child("user").addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot){
+
+                        if (dataSnapshot.hasChild(useremail) && (userpassword.equals(dataSnapshot.child(useremail).child("user_password").getValue()))){
+                            Config.useremail = useremail;
+                            if (useradmin == dataSnapshot.child(useremail).child("user_admin").getValue()){
+                                Config.adminFlag = true;
+                            }
+                            startActivity(new Intent(activity_login.this,OnBoardingActivity.class));
+                        }
+                        else{
+                            Toast.makeText(context, "Wrong Email or Password. Please Try again!", Toast.LENGTH_SHORT).show();
+                        }
+
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                    }
+
+                });
+
+
+                //Log.v("EditText",EmailLogin.getText().toString());
+                //Log.v("EditText",PasswordLogin.getText().toString());
+
             }
         });
 

@@ -3,9 +3,11 @@ package com.recycle.laundrymanagement;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -36,8 +38,8 @@ public class activity_register extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         EmailRegister = (EditText) findViewById(R.id.emailregister);
-        PasswordRegister = (EditText) findViewById(R.id.phoneregister);
-        PhoneRegister = (EditText) findViewById(R.id.passwordregister);
+        PasswordRegister = (EditText) findViewById(R.id.passwordregister);
+        PhoneRegister = (EditText) findViewById(R.id.phoneregister);
         SubmitRegister = (Button) findViewById(R.id.register_submit);
 
         database = FirebaseDatabase.getInstance().getReference();
@@ -48,9 +50,12 @@ public class activity_register extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                final String useremail = EmailRegister.getText().toString();
+                final String useremail = EmailRegister.getText().toString().replace(".",",");
                 final String userpassword = PasswordRegister.getText().toString();
                 final String userphonenum = PhoneRegister.getText().toString();
+                final Boolean useradmin = false;
+
+
 
                 final Context context = getApplicationContext();
                 //Log.v("EditText",EmailRegister.getText().toString());
@@ -74,10 +79,20 @@ public class activity_register extends AppCompatActivity {
                             user.setUser_email(useremail);
                             user.setUser_phonenum(userphonenum);
                             user.setUser_password(Utils.md5Encryption(userpassword));
+                            user.setUser_admin(useradmin);
 
                             database.child("user").child(user.getUser_email()).setValue(user);
-                            Log.v("EditText",EmailRegister.getText().toString());
-                            Toast.makeText(context,"user has successfully registered",Toast.LENGTH_LONG).show();
+                            //Log.v("EditText",EmailRegister.getText().toString());
+                            Toast.makeText(context,"user has successfully registered. Wait for Translate",Toast.LENGTH_LONG).show();
+
+                            Handler handler = new Handler();
+                            handler.postDelayed(new Runnable() {
+                                public void run() {
+                                    Config.useremail = useremail;
+                                    startActivity(new Intent(activity_register.this,OnBoardingActivity.class));
+                                }
+                            }, 3000);
+
                         }
                     }
 
@@ -93,6 +108,11 @@ public class activity_register extends AppCompatActivity {
                 //myRef.setValue(EmailRegister.getText().toString() +  PasswordRegister.getText().toString() + PhoneRegister.getText().toString());
             }
         });
+    }
+
+    private void goToLogin(){
+
+
     }
 
     @Override
