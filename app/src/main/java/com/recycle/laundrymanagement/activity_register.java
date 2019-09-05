@@ -70,6 +70,9 @@ public class activity_register extends AppCompatActivity {
                             //Log.v("EditText",EmailRegister.getText().toString());
                             Toast.makeText(context,"This email has already existed, please change one", Toast.LENGTH_LONG).show();
                         }
+                        else if(!useremail.contains("@")){
+                            Toast.makeText(context,"This email is invalid, please input a new one", Toast.LENGTH_LONG).show();
+                        }
                         else if(dataSnapshot.hasChild(userphonenum)){
                             Toast.makeText(context,"This phone number has already existed, please change one", Toast.LENGTH_LONG).show();
                         }
@@ -83,7 +86,8 @@ public class activity_register extends AppCompatActivity {
 
                             database.child("user").child(user.getUser_email()).setValue(user);
                             //Log.v("EditText",EmailRegister.getText().toString());
-                            Toast.makeText(context,"user has successfully registered. Wait for Translate",Toast.LENGTH_LONG).show();
+                            Toast.makeText(context,"user has successfully registered. Wait for Transfer",Toast.LENGTH_LONG).show();
+
 
                             Handler handler = new Handler();
                             handler.postDelayed(new Runnable() {
