@@ -8,6 +8,7 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="29" />
 
+<<<<<<< HEAD
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -16,6 +17,8 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -24,8 +27,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+=======
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.recycle.laundrymanagement.OnBoardingActivity" />
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
         <activity android:name="com.recycle.laundrymanagement.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +43,7 @@
         </activity>
         <activity android:name="com.recycle.laundrymanagement.activity_login" />
         <activity android:name="com.recycle.laundrymanagement.activity_register" />
+<<<<<<< HEAD
         <activity android:name="com.recycle.laundrymanagement.OnBoardingActivity" />
 
         <service
@@ -99,6 +108,8 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
     </application>
 
 </manifest>

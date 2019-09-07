@@ -1,10 +1,15 @@
 package com.recycle.laundrymanagement;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Context;
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -12,6 +17,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+<<<<<<< HEAD
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -20,6 +26,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 
 public class activity_register extends AppCompatActivity {
 
@@ -29,8 +37,11 @@ public class activity_register extends AppCompatActivity {
     private EditText PhoneRegister;
     private Button SubmitRegister;
 
+<<<<<<< HEAD
     protected DatabaseReference database;
 
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -42,6 +53,7 @@ public class activity_register extends AppCompatActivity {
         PhoneRegister = (EditText) findViewById(R.id.phoneregister);
         SubmitRegister = (Button) findViewById(R.id.register_submit);
 
+<<<<<<< HEAD
         database = FirebaseDatabase.getInstance().getReference();
 
         //Submit Button Listener
@@ -113,6 +125,15 @@ public class activity_register extends AppCompatActivity {
 
                 //DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("Email, Phone number and Password");
                 //myRef.setValue(EmailRegister.getText().toString() +  PasswordRegister.getText().toString() + PhoneRegister.getText().toString());
+=======
+        //Submit Button Listener
+        SubmitRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.v("EditText",EmailRegister.getText().toString());
+                Log.v("EditText",PasswordRegister.getText().toString());
+                Log.v("EditText",PhoneRegister.getText().toString());
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
             }
         });
     }

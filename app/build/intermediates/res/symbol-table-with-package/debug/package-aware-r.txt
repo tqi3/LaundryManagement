@@ -111,7 +111,10 @@ attr buttonBarStyle
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
+<<<<<<< HEAD
 attr buttonSize
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
@@ -148,7 +151,10 @@ attr chipStartPadding
 attr chipStrokeColor
 attr chipStrokeWidth
 attr chipStyle
+<<<<<<< HEAD
 attr circleCrop
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 attr closeIcon
 attr closeIconEnabled
 attr closeIconEndPadding
@@ -171,7 +177,10 @@ attr colorControlNormal
 attr colorError
 attr colorPrimary
 attr colorPrimaryDark
+<<<<<<< HEAD
 attr colorScheme
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 attr colorSecondary
 attr colorSwitchThumbNormal
 attr commitIcon
@@ -280,8 +289,11 @@ attr iconStartPadding
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
+<<<<<<< HEAD
 attr imageAspectRatio
 attr imageAspectRatioAdjust
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -421,7 +433,10 @@ attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
 attr reverseLayout
 attr rippleColor
+<<<<<<< HEAD
 attr scopeUris
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 attr scrimAnimationDuration
 attr scrimBackground
 attr scrimVisibleHeightTrigger
@@ -614,6 +629,7 @@ color cardview_shadow_start_color
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+<<<<<<< HEAD
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -625,6 +641,8 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 color design_bottom_navigation_shadow_color
 color design_default_color_primary
 color design_default_color_primary_dark
@@ -1016,6 +1034,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+<<<<<<< HEAD
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1035,14 +1054,19 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+<<<<<<< HEAD
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1095,8 +1119,11 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+<<<<<<< HEAD
 id adjust_height
 id adjust_width
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id alertTitle
 id all
 id always
@@ -1123,7 +1150,10 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+<<<<<<< HEAD
 id dark
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1135,7 +1165,10 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+<<<<<<< HEAD
 id emaillogin
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id emailregister
 id end
 id end_padder
@@ -1158,7 +1191,10 @@ id home
 id homeAsUp
 id icon
 id icon_group
+<<<<<<< HEAD
 id icon_only
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id ifRoom
 id image
 id info
@@ -1168,7 +1204,10 @@ id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
 id left
+<<<<<<< HEAD
 id light
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id line1
 id line3
 id listMode
@@ -1199,7 +1238,11 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+<<<<<<< HEAD
 id passwordlogin
+=======
+id password
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id passwordregister
 id percent
 id phoneregister
@@ -1285,9 +1328,15 @@ id uniform
 id unlabeled
 id up
 id useLogo
+<<<<<<< HEAD
 id view_offset_helper
 id visible
 id wide
+=======
+id username
+id view_offset_helper
+id visible
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 id withText
 id wrap
 id wrap_content
@@ -1299,7 +1348,10 @@ integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+<<<<<<< HEAD
 integer google_play_services_version
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 integer hide_password_duration
 integer mtrl_btn_anim_delay_ms
 integer mtrl_btn_anim_duration_ms
@@ -1341,7 +1393,10 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+<<<<<<< HEAD
 layout activity_on_boarding
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 layout activity_register
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1424,6 +1479,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+<<<<<<< HEAD
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -1451,6 +1507,10 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+=======
+string fab_transformation_scrim_behavior
+string fab_transformation_sheet_behavior
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 string hello_world
 string hide_bottom_view_on_scroll_behavior
 string login
@@ -1460,7 +1520,10 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+<<<<<<< HEAD
 string project_id
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 string register
 string registerlink
 string search_menu_title
@@ -2014,7 +2077,10 @@ styleable LinearConstraintLayout android_orientation
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+<<<<<<< HEAD
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 styleable MaterialButton android_insetLeft android_insetRight android_insetTop android_insetBottom backgroundTint backgroundTintMode cornerRadius icon iconGravity iconPadding iconSize iconTint iconTintMode rippleColor strokeColor strokeWidth
 styleable MaterialCardView strokeColor strokeWidth
 styleable MaterialComponentsTheme bottomSheetDialogTheme bottomSheetStyle chipGroupStyle chipStandaloneStyle chipStyle colorAccent colorBackgroundFloating colorPrimary colorPrimaryDark colorSecondary editTextStyle floatingActionButtonStyle materialButtonStyle materialCardViewStyle navigationViewStyle scrimBackground snackbarButtonStyle tabStyle textAppearanceBody1 textAppearanceBody2 textAppearanceButton textAppearanceCaption textAppearanceHeadline1 textAppearanceHeadline2 textAppearanceHeadline3 textAppearanceHeadline4 textAppearanceHeadline5 textAppearanceHeadline6 textAppearanceOverline textAppearanceSubtitle1 textAppearanceSubtitle2 textInputStyle
@@ -2029,7 +2095,10 @@ styleable RecyclerView android_orientation android_descendantFocusability fastSc
 styleable ScrimInsetsFrameLayout insetForeground
 styleable ScrollingViewBehavior_Layout behavior_overlapTop
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+<<<<<<< HEAD
 styleable SignInButton buttonSize colorScheme scopeUris
+=======
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
 styleable Snackbar snackbarButtonStyle snackbarStyle
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

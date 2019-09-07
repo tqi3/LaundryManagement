@@ -4,7 +4,11 @@
             "outputFile": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\3472410157f1fedf55accc2860678919\\res\\values-port\\values-port.xml",
+=======
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\values-port\\values-port.xml",
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

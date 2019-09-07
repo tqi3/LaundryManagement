@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 #Sat Sep 07 12:42:48 MDT 2019
+=======
+<<<<<<< HEAD
+#Sun Sep 01 16:20:53 MDT 2019
+=======
+#Thu Aug 29 21:33:36 MDT 2019
+>>>>>>> 8ff9f7ef97ae6d5fa39ecd7c12626ae80e2f2d23
+>>>>>>> bce7ecd35a83ef980e8f1cba7b475fc816ea6b36
 base.0=F\:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
 path.1=classes.dex
 renamed.1=classes2.dex
