@@ -61,5 +61,14 @@ public class OnBoardingActivity extends AppCompatActivity {
         //Toast.makeText(context, Config.useremail + Config.adminFlag, Toast.LENGTH_SHORT).show();
     }
 
+    @Override
+    public void onBackPressed(){
+        //Disable going back to the MainActivity
+        super.onBackPressed();
+        Intent BackLogin = new Intent(OnBoardingActivity.this,activity_login.class);
+        startActivity(BackLogin);
+        finish();
+
+    }
 
 }

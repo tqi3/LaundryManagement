@@ -73,6 +73,9 @@ public class activity_register extends AppCompatActivity {
                         else if(!useremail.contains("@")){
                             Toast.makeText(context,"This email is invalid, please input a new one", Toast.LENGTH_LONG).show();
                         }
+                        else if(!userphonenum.matches("^\\d+$")){
+                            Toast.makeText(context,"This phone number is invalid,please change one",Toast.LENGTH_LONG).show();
+                        }
                         else if(dataSnapshot.hasChild(userphonenum)){
                             Toast.makeText(context,"This phone number has already existed, please change one", Toast.LENGTH_LONG).show();
                         }

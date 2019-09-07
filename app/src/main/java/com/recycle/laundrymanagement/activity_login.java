@@ -40,10 +40,15 @@ public class activity_login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
         EmailLogin = (EditText) findViewById(R.id.emaillogin);
         PasswordLogin = (EditText) findViewById(R.id.passwordlogin);
         SubmitButton = (Button) findViewById(R.id.submit);
         RegisterLink = (TextView) findViewById(R.id.registerlink);
+
+        EmailLogin.setText("");
+        PasswordLogin.setText("");
 
         database = FirebaseDatabase.getInstance().getReference();
 
