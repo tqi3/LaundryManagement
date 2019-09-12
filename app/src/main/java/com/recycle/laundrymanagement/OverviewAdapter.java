@@ -23,10 +23,14 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.text.SimpleDateFormat;
+import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.PriorityQueue;
+import java.util.Set;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -66,6 +70,12 @@ public class OverviewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, final int position) {
+//
+        final HashMap<Long, Integer> map = new HashMap<>();
+        //Set<Integer> finished_machines = new HashSet<>();
+        final PriorityQueue<Long> finished_pq = new PriorityQueue<>();
+        final PriorityQueue<Long> overtime_pq = new PriorityQueue<>();
+//
         mdatabase = FirebaseDatabase.getInstance().getReference();
         final ViewHolder viewHolder = (ViewHolder)holder;
         viewHolder.mTextView.setText(mMachines.get(position).getDrawable_label());
@@ -104,6 +114,10 @@ public class OverviewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                                                 mMachines.get(position).setStatus_id(Integer.parseInt(status_id_value_change));
                                                 mMachines.get(position).setStart_time(start_time);
                                                 mMachines.get(position).setEnd_time(end_time);
+//
+                                                map.put(end_time, position);
+                                                finished_pq.add(end_time);
+//
                                                 mdatabase.child("/washing_machine/" + position + "/" + status_id_key).setValue(status_id_value_change);
                                                 SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm:ss");
                                                 Date format_start = new Date(start_time);
@@ -223,59 +237,73 @@ public class OverviewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                 mdatabase.child("/washing_machine/" + position).addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        long end_time = mMachines.get(position).getEnd_time();
                         long curr_time = System.currentTimeMillis();
-                        for(DataSnapshot feature_snapShot: dataSnapshot.getChildren()) {
-                            if(feature_snapShot.getKey().equals("status_id")) {
-                                final String status_id_key = feature_snapShot.getKey();
-                                String status_id_value = feature_snapShot.getValue().toString();
-                                if(status_id_value.equals("2") && curr_time >= end_time) {
-                                    viewHolder.mImageView.setColorFilter(Color.YELLOW);
-                                    final String status_id_value_change = "3";
-                                    mMachines.get(position).setStatus_id(Integer.parseInt(status_id_value_change));
-                                    mdatabase.child("/washing_machine/" + position + "/" + status_id_key).setValue(status_id_value_change);
-                                    mdatabase.child("status").addListenerForSingleValueEvent(new ValueEventListener() {
-                                        @Override
-                                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                            for(DataSnapshot status_snapShot: dataSnapshot.getChildren()) {
-                                                if(status_snapShot.getKey().equals(status_id_value_change)) {
-                                                    String status_value = status_snapShot.getValue().toString();
-                                                    mMachines.get(position).setDrawable_label(status_value);
-                                                    mdatabase.child("/washing_machine/" + position + "/drawable_label").setValue(status_value);
-                                                    viewHolder.mTextView.setText(status_value);
+                        while(curr_time - finished_pq.peek() < 0){
+                            String finished_id = map.get(finished_pq.peek()).toString();
+                            overtime_pq.add(finished_pq.poll());
+                            for(DataSnapshot feature_snapShot: dataSnapshot.getChildren()) {
+                                if(feature_snapShot.getKey().equals("washing_machine_id")) {
+                                    final String finished_id_key = feature_snapShot.getKey();
+                                    String finished_id_value = feature_snapShot.getValue().toString();
+                                    if(finished_id_value.equals(finished_id)) {
+                                        viewHolder.mImageView.setColorFilter(Color.YELLOW);
+                                        final String status_id_value_change = "3";
+                                        final String status_id_key = feature_snapShot.getKey();
+                                        mMachines.get(position).setStatus_id(Integer.parseInt(status_id_value_change));
+                                        mdatabase.child("/washing_machine/" + position + "/" + status_id_key).setValue(status_id_value_change);
+                                        mdatabase.child("status").addListenerForSingleValueEvent(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                                for(DataSnapshot status_snapShot: dataSnapshot.getChildren()) {
+                                                    if(status_snapShot.getKey().equals(status_id_value_change)) {
+                                                        String status_value = status_snapShot.getValue().toString();
+                                                        mMachines.get(position).setDrawable_label(status_value);
+                                                        mdatabase.child("/washing_machine/" + position + "/drawable_label").setValue(status_value);
+                                                        viewHolder.mTextView.setText(status_value);
+                                                    }
                                                 }
                                             }
-                                        }
 
-                                        @Override
-                                        public void onCancelled(@NonNull DatabaseError databaseError) {
+                                            @Override
+                                            public void onCancelled(@NonNull DatabaseError databaseError) {
 
-                                        }
-                                    });
-                                }else if(status_id_value.equals("3") && curr_time >= end_time + 10000) {
-                                    viewHolder.mImageView.setColorFilter(Color.RED);
-                                    final String status_id_value_change = "4";
-                                    mMachines.get(position).setStatus_id(Integer.parseInt(status_id_value_change));
-                                    mdatabase.child("/washing_machine/" + position + "/" + status_id_key).setValue(status_id_value_change);
-                                    mdatabase.child("status").addListenerForSingleValueEvent(new ValueEventListener() {
-                                        @Override
-                                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                            for(DataSnapshot status_snapShot: dataSnapshot.getChildren()) {
-                                                if(status_snapShot.getKey().equals(status_id_value_change)) {
-                                                    String status_value = status_snapShot.getValue().toString();
-                                                    mMachines.get(position).setDrawable_label(status_value);
-                                                    mdatabase.child("/washing_machine/" + position + "/drawable_label").setValue(status_value);
-                                                    viewHolder.mTextView.setText(status_value);
+                                            }
+                                        });
+                                    }
+                                }
+                            }
+                        }
+                        while(curr_time >= overtime_pq.peek() + 10000){
+                            String overtime_id = map.get(overtime_pq.poll()).toString();
+                            for(DataSnapshot feature_snapShot: dataSnapshot.getChildren()) {
+                                if(feature_snapShot.getKey().equals("washing_machine_id")) {
+                                    final String overtime_id_key = feature_snapShot.getKey();
+                                    String overtime_id_value = feature_snapShot.getValue().toString();
+                                    if(overtime_id_value.equals(overtime_id)) {
+                                        viewHolder.mImageView.setColorFilter(Color.RED);
+                                        final String status_id_value_change = "4";
+                                        final String status_id_key = feature_snapShot.getKey();
+                                        mMachines.get(position).setStatus_id(Integer.parseInt(status_id_value_change));
+                                        mdatabase.child("/washing_machine/" + position + "/" + status_id_key).setValue(status_id_value_change);
+                                        mdatabase.child("status").addListenerForSingleValueEvent(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                                for(DataSnapshot status_snapShot: dataSnapshot.getChildren()) {
+                                                    if(status_snapShot.getKey().equals(status_id_value_change)) {
+                                                        String status_value = status_snapShot.getValue().toString();
+                                                        mMachines.get(position).setDrawable_label(status_value);
+                                                        mdatabase.child("/washing_machine/" + position + "/drawable_label").setValue(status_value);
+                                                        viewHolder.mTextView.setText(status_value);
+                                                    }
                                                 }
                                             }
-                                        }
 
-                                        @Override
-                                        public void onCancelled(@NonNull DatabaseError databaseError) {
+                                            @Override
+                                            public void onCancelled(@NonNull DatabaseError databaseError) {
 
-                                        }
-                                    });
-
+                                            }
+                                        });
+                                    }
                                 }
                             }
                         }

@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Const\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "/Users/wangshuhan/laiandroid/LaundryManagement/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Const\\.gradle\\caches\\transforms-2\\files-2.1\\fb0008f3ce34d713624985778a7b9378\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Const\\.gradle\\caches\\transforms-2\\files-2.1\\081b4a1a01d44776adf7cc81c4ac6e7b\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/wangshuhan/.gradle/caches/transforms-2/files-2.1/38835c72266bd0910f441857c854b835/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/wangshuhan/.gradle/caches/transforms-2/files-2.1/af6f35762852a3732881173a6c3f071e/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
