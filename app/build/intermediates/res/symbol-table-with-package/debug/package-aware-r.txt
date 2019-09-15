@@ -25,6 +25,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array timeDuration
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1204,6 +1205,7 @@ id register
 id right
 id right_icon
 id right_side
+id rmn_time
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1280,6 +1282,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id washing_machine
 id washing_machine_img
 id washing_machine_overview_fragment
 id washing_machine_overview_id
@@ -1351,6 +1354,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_activity_login
+layout fragment_pick_time
+layout fragment_remaining_time
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

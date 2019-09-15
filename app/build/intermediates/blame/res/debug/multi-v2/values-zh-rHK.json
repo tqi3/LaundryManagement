@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/wangshuhan/laiandroid/LaundryManagement/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "/Users/wangshuhan/Desktop/LaundryManagement/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "/Users/wangshuhan/.gradle/caches/transforms-2/files-2.1/af6f35762852a3732881173a6c3f071e/res/values-zh-rHK/values-zh-rHK.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/wangshuhan/laiandroid/LaundryManagement/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/Users/wangshuhan/Desktop/LaundryManagement/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/Users/wangshuhan/.gradle/caches/transforms-2/files-2.1/ae7d02c998f316ac0b00988f06d08a46/res/values-ms/values.xml",
