@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Fri Sep 13 23:04:47 EDT 2019
-1.base=/Users/wangshuhan/Desktop/LaundryManagement/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Sun Sep 15 20:50:28 MDT 2019
+1.base=F\:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=/Users/wangshuhan/Desktop/LaundryManagement/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+0.base=F\:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
 1.path=classes.dex
