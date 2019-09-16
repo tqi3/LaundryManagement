@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Const\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "F:\\Users\\fanfan\\AndroidStudioProjects\\LaundryManagement\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Const\\.gradle\\caches\\transforms-2\\files-2.1\\081b4a1a01d44776adf7cc81c4ac6e7b\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\c540da19280852372ae9cd7116b5bea5\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Const\\.gradle\\caches\\transforms-2\\files-2.1\\32f09341745efc9147f2b871815340f4\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\fanfan\\.gradle\\caches\\transforms-2\\files-2.1\\df62d0fcc416eb9ad138bacfa90af1de\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
