@@ -4,7 +4,8 @@
     android:padding="5dp"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="150dp">
+    android:layout_height="150dp"
+    android:id="@+id/washing_machine">
 
 
     <ImageView
