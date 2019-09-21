@@ -159,6 +159,8 @@ public class OverviewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                                     mMachines.get(position).setStatus_id(Integer.parseInt(status_id_value_change));
                                     mMachines.get(position).setStart_time(start_time);
                                     mMachines.get(position).setEnd_time(end_time);
+                                    mdatabase.child("/washing_machine/" + position + "/user_email").setValue("");
+                                    mMachines.get(position).setUser_email("");
                                     mdatabase.child("/washing_machine/" + position + "/" + status_id_key).setValue(status_id_value_change);
                                     mdatabase.child("/washing_machine/" + position + "/start_time").setValue(start_time);
                                     mdatabase.child("/washing_machine/" + position + "/end_time").setValue(end_time);
