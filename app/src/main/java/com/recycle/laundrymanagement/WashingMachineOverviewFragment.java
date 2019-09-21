@@ -46,7 +46,7 @@ public class WashingMachineOverviewFragment extends Fragment {
 
 
         final List<WashingMachine> listItems = new ArrayList<> ();
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 27; i++) {
             WashingMachine wm = new WashingMachine();
             wm.setDrawable_label("available");
             wm.setWashing_machine_id(i);
