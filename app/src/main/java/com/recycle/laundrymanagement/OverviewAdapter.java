@@ -21,6 +21,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -88,6 +89,9 @@ public class OverviewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                                     timePicker.setListener(new PickTime.PickTimeListener(){
                                         @Override
                                         public void onPositiveClick() {
+
+                                            FirebaseMessaging.getInstance().subscribeToTopic(String.valueOf(position));
+
                                             int mode = timePicker.timeSelected;
                                             if (mode != -1) {
                                                 final String status_id_value_change = "2";
@@ -146,6 +150,9 @@ public class OverviewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
                                     });
                                     timePicker.show(homeFragment.getFragmentManager(), "timepk");
                                 } else if(status_id_value.equals("3") || status_id_value.equals("4")) {
+
+                                    FirebaseMessaging.getInstance().unsubscribeFromTopic(String.valueOf(position));
+
                                     final String status_id_value_change = "1";
                                     long start_time = 0;
                                     long end_time = 0;
